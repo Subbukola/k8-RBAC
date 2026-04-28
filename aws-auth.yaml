@@ -12,6 +12,13 @@ data:
       username: subbu
       groups:
         - freshers
+
+    - userarn: arn:aws:iam::138114711756:user/mani
+      username: mani 
+      groups:
+        - freshers
+
+         
 kind: ConfigMap
 metadata:
   creationTimestamp: "2026-04-28T16:47:30Z"
