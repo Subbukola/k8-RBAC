@@ -23,6 +23,18 @@ data:
       groups:
         - managers 
 
+      
+      
+    - userarn: arn:aws:iam::138114711756:user/pawan 
+      username: pawan
+      groups:
+        - support-team 
+
+    - userarn: arn:aws:iam::138114711756:user/venky
+      username: venky
+      groups:
+        - support-team  
+
          
 kind: ConfigMap
 metadata:
