@@ -18,6 +18,11 @@ data:
       groups:
         - freshers
 
+    - userarn: arn:aws:iam::138114711756:user/manager
+      username: manager
+      groups:
+        - managers 
+
          
 kind: ConfigMap
 metadata:
